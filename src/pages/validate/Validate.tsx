@@ -66,11 +66,11 @@ export default function Validate() {
           </div>
 
           <div className="flex flex-col gap-5 items-center">
-            <a href="">
+            <Link to="/wallet">
               <button className="hover:scale-110 p-3 transition-all duration-300 h-20 w-20 border rounded-md">
                 <img src={gPayLogo} alt="G-pay logo" className="scale-125" />
               </button>
-            </a>
+            </Link>
 
             <p>G-pay</p>
           </div>
